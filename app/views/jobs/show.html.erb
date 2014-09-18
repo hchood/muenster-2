@@ -1,0 +1,15 @@
+<h3>Title: <%= @job.title %></h3>
+
+<p>
+  Location: <%= @job.company.location %>
+</p>
+
+<p>
+  Company: <%= @job.company.name %>
+</p>
+
+<p>
+  Description: <%= @job.description %>
+</p>
+
+<%= link_to 'Back', jobs_path %>
