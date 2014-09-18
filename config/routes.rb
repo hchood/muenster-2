@@ -1,4 +1,8 @@
 Muenster::Application.routes.draw do
+  resources :jobs, only: :index
+
+  # get '/jobs' => 'jobs#index'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
